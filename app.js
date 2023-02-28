@@ -45,9 +45,7 @@ const person = [
 ];
 console.log(person);
 
-// 3
-
-const ProductName = {
+const productName = {
   productTitle: "Samsung S21",
   productDescription: "New",
   productPrice: 600,
@@ -56,7 +54,7 @@ const ProductName = {
   productResolution: "400px",
   productColor: "Black",
 };
-const ProductName1 = {
+const productName1 = {
   productTitle: "Iphone 13 pro",
   productDescription: "New",
   productPrice: 1000,
@@ -66,12 +64,12 @@ const ProductName1 = {
   productColor: "Green",
 };
 
-console.log("Product name is", ProductName["productTitle"]);
-console.log("Product price is", ProductName["productPrice"]);
-console.log("Product resolution is", ProductName["productResolution"]);
-console.log("And you can buy it, at", ProductName["shopAddresses"]);
+console.log("Product name is", productName["productTitle"]);
+console.log("Product price is", productName["productPrice"]);
+console.log("Product resolution is", productName["productResolution"]);
+console.log("And you can buy it, at", productName["shopAddresses"]);
 
-console.log("second Product name is", ProductName1["productTitle"]);
-console.log("Product price is", ProductName1["productPrice"]);
-console.log("Product resolution is", ProductName1["productResolution"]);
-console.log("And you can buy it, at", ProductName1["shopAddresses"]);
+console.log("second Product name is", productName1["productTitle"]);
+console.log("Product price is", productName1["productPrice"]);
+console.log("Product resolution is", productName1["productResolution"]);
+console.log("And you can buy it, at", productName1["shopAddresses"]);
